@@ -53,10 +53,9 @@ nav li a:hover {
 
 .logo {
     height: 50px;
-    padding: 10px;
-}
-.logo:hover{
-    transform: scale(102%);
+    padding: 5px;
+    border-radius: 60px;
+    margin: 5px;
 }
 
 

@@ -1,0 +1,52 @@
+.svg{
+    width: 300px;
+}
+
+.content-install{
+    position: relative;
+    top: -45px;
+}
+
+.content-install div{
+    height:600px;
+    width: 400px;
+    display: inline-block;
+    margin: 15px;
+    padding: 50px;
+    box-sizing: border-box;
+    box-shadow: gainsboro 2px 2px 2px 2px;
+    border-radius: 60px;
+}
+.content-install div:hover{
+    transform: scale(105%);
+    box-shadow: darkgray 5px 5px 5px 5px;
+
+}
+
+.content-install ul, h3{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+.content-install div p{
+    width: fit-content;
+    height: fit-content;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+}
+
+main{
+    width: 1300px;
+    position: relative;
+    left:-150px;
+}
+
+figure{
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
