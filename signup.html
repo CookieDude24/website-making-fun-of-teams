@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Fragments ist ein moderner Programm zur Kommunikation mit deinem Team. Es ist schneller, besser organisiert und sicherer als E-Mail.">
+    <title>Fragments - Login</title>
+
+    <link rel="canonical" href="https://www.fragments.com/index.html">
+
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <nav>
+                <ul>
+                    <li><img src="../pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
+                            onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'" class="logo">
+                    </li>
+                    <li onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'"><a
+                            href="../index.html">home</a></li>
+                    <li onclick="location.href='resources.html'" onmouseover="style.cursor='pointer'"><a
+                            href="resources.html">ressourcen</a></li>
+                    <li onclick="location.href='pricing.html'" onmouseover="style.cursor='pointer'"><a
+                            href="pricing.html">preise</a></li>
+                    <li onclick="location.href='install.html'" onmouseover="style.cursor='pointer'"><a
+                            href="install.html">installieren</a></li>
+                    <li onclick="location.href='about.html'" onmouseover="style.cursor='pointer'"><a
+                            href="about.html">über uns</a></li>
+                    <li onclick="location.href='login.html'" onmouseover="style.cursor='pointer'" class="float-right"><a
+                            class="active" href="login.html">login</a></li>
+                </ul>
+            </nav>
+            <!--<div class="banner">
+                <div class="banner-content">
+                    <h1>Fragments <br><span id="farbigerh1">Preise<br> und Pläne.</span>
+                    </h1>
+                    <p> Erhalten Sie <strong>leistungsstarke Teamkommunikation zu einem fairen Preis</strong> . Starten
+                        Sie noch heute
+                        und optimieren Sie Ihre Zusammenarbeit mit Fragments!
+                    </p>
+                </div>
+            </div>-->
+        </header>
+        <main>
+            <div class="login-form">
+                <h1>Konto erstellen</h1>
+                <form id="login" action="https://fragments.com/createaccount" method="get">
+                    <fieldset>
+                        <legend>Allgemeine Daten</legend>
+                        <input class="text" type="email" name="accmail" placeholder="Email" required><br>
+                        <input class="text" type="password" name="accpassword" placeholder="Passwort" required><br>
+                        <input class="text" type="password" name="accpasswordrepeat" placeholder="Passwort wiederholen"
+                            required><br>
+                        <br>
+                        <br>
+                        <br>
+                        <input class="text" type="text" name="name" placeholder="Vorname" required><br>
+                        <input class="text" type="text" name="secondname" placeholder="Nachname" required><br>
+                        <br>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Ich bin ...</legend>
+                        <div class="radio-position">
+                            <label>Geschäftsführer</label>
+                            <input type="radio" name="person" value="employer" required>
+                        </div>
+                        <br>
+                        <div class="radio-position">
+                            <label>Angestellter</label>
+                            <input type="radio" name="person" value="employee" required>
+                        </div>
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Personalisierung</legend>
+                        <div class="half-width-div">
+                            <label>Akzentfarbe</label><br>
+                            <input class="half-width" type="color" name="accentcolor">
+                        </div>
+                        <br>
+                        <div class="half-width-div">
+                            <label>Schriftart</label><br>
+                            <select class="half-width" name="font">
+
+                                <option>Arial</option>
+                                <option>Roboto</option>
+                                <option>Helvetica</option>
+                                <option>Cantarell</option>
+                                <option>Calibri</option>
+                                <option>Times New Roman</option>
+                                <option>Shelvetica</option>
+                                <option>Sans-Serif</option>
+                                <option>OIDA</option>
+
+                            </select>
+                        </div>
+                    </fieldset>
+                    <div class="checkboxes">
+                        <label>Abonniere unseren Newsletter für Neuigkeiten und Nachrichten!</label>
+                        <input type="checkbox" value="subsribed" name="newsletter">
+                        <br>
+                        <br>
+                    
+                        <label>AGBs gelesen</label>
+                        <input type="checkbox" value="agreed" name="agb" required>
+                    </div>
+                    <input type="submit" value="Konto erstellen" id="submit-button"
+                        onmouseover="style.cursor='pointer'">
+                </form>
+                <span onclick="location.href='login.html'" onmouseover="style.cursor='pointer'">Haben Sie schon ein
+                    Konto? <a href="login.html">Jetzt einloggen</a></span>
+            </div>
+        </main>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="footer-logo">
+                <img src="../pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
+                    onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'" class="footer-logo">
+            </div>
+
+            <div class="bottom">
+                &copy; 2023 Fragments Technologies GmbH. Alle Rechte vorbehalten. Diverse Marken sind im Besitz der
+                jeweiligen Eigentümer. <br><a href="about.html#contact">Kontaktiere uns</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
