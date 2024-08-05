@@ -1,0 +1,97 @@
+h1 {
+    position: relative;
+    top: -5px;
+}
+
+.list {
+    padding: 50px;
+    width: 900px;
+}
+
+.list .knopf {
+    box-sizing: border-box;
+    width: 600px;
+    text-align: center;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-bottom: 100px;
+}
+
+.wiki {
+    border-radius: 60px;
+    padding: 50px;
+    margin-top: 0px;
+    background-color: #2a6bd2;
+    color: white;
+
+}
+
+.wiki:hover {
+    transform: scale(102%);
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
+}
+
+summary {
+    background-color: gainsboro;
+    border-radius: 25px;
+    height: fit-content;
+    width: 560px;
+    text-align: center;
+}
+
+summary h2 {
+    display: inline;
+}
+
+details {
+    background-color: gainsboro;
+    border-radius: 25px;
+    height: fit-content;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+details p {
+    margin: 10px;
+}
+
+article p {
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+details li {
+    margin: 10px;
+    width: 400px;
+    margin-left: 100px;
+    text-align: left;
+}
+
+.patchnotes {
+    background-color: inherit;
+    padding: 10px;
+}
+
+
+/*.schwerwiegend{
+    background-color: lightcoral;
+    padding: 10px;
+    padding-bottom:20px;
+    border-radius: 25px 25px 0 0;
+}
+.mittel{
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+    padding-bottom:20px;
+
+}
+.niedrig{
+    background-color: lightgreen;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 0 0 25px 25px;
+}*/

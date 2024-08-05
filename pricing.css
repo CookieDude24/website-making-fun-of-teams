@@ -1,0 +1,46 @@
+td {
+    padding: 5px;
+    border-right: 1px solid #333;
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    width: 100px;
+
+}
+
+tr {
+    border-top: 1px solid #333;
+}
+
+thead tr {
+    border-top: none;
+}
+
+tbody tr td:last-child,
+thead tr td:last-child,
+tfoot tr td{
+    border-right: none;
+}
+
+tbody tr:last-child td:last-child:hover{
+    background-color: rgba(220, 220, 220, 0.445);
+}
+thead {
+    border-radius: 60px;
+    background-color: gainsboro;
+    font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    border-radius: 60px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.red{
+    background-color: lightcoral;
+}
+h2{
+    text-align: center;
+}

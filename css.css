@@ -2,6 +2,12 @@
     font-family:sans-serif, Arial,Helvetica ;
     margin: 0;
     padding: 0;
+    transition: 200ms;
+}
+body{
+    overflow-x: hidden;
+    font-size: 16px;
+    color:#333;
 }
 .main{
     width: 1000px;
@@ -9,8 +15,7 @@
 }
 
 main{
-    position:absolute;
-    top: 50px;
+    margin-top: 50px;
     z-index: 50;
 }
 
@@ -39,10 +44,6 @@ main{
 .row, .firstRow{
     overflow: hidden;
     padding: 10px;
-}
-
-.firstRow{
-    margin-top: 300px;
 }
 
 .banner{
@@ -76,8 +77,8 @@ footer{
     background-color: #333;
     text-align: center;
     padding: 5px 0;
-    position: relative;
     color: white;
+    margin-top: 100px;
 }
 footer a{
     color: white;
@@ -91,4 +92,52 @@ footer a{
 .bottom{
     position: relative;
     top: 80px;
+}
+
+#kaufen {
+    background-color: #2a6bd2;
+    color: white;
+    width: 1000px;
+    height: 300px;
+    border-radius: 100px;
+    text-align: center;
+    padding-top: 50px;
+    margin-top: 60px;
+
+}
+
+#ueberschrift {
+    font-size: xx-large;
+}
+
+#knoepfe a {
+    padding: 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 900;
+    font-size: large;
+    border: 2px white solid;
+}
+
+#knoepfe {
+    margin-top: 100px;
+}
+
+#testen-knopf {
+    background-color: white;
+    color: #2a6bd2;
+    margin-right: 50px;
+}
+
+#kaufen-knopf {
+    background-color: #2a6bd2;
+    color: white;
+}
+
+#kaufen-knopf:hover,
+#testen-knopf:hover {
+    text-decoration: underline;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 8px;
 }
