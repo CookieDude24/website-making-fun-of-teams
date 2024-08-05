@@ -5,18 +5,13 @@
     <meta charset="utf-8">
     <meta name="description"
         content="Fragments ist ein moderner Programm zur Kommunikation mit deinem Team. Es ist schneller, besser organisiert und sicherer als E-Mail.">
-    <title>Fragments - Home</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Fragments - Resourcen</title>
 
     <link rel="canonical" href="https://www.fragments.com/index.html">
-    <link rel="stylesheet" href="css/css.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <style>
-        footer {
-            top: 1000px;
-        }
-    </style>
+
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/resources.css">
+    <link rel="stylesheet" href="../css/nav.css">
 </head>
 
 <body>
@@ -24,17 +19,17 @@
         <header>
             <nav>
                 <ul>
-                    <li><img src="pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
+                    <li><img src="../pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
                             onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'" class="logo">
                     </li>
-                    <li onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'"><a class="aktiv"
+                    <li onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'"><a
                             href="../index.html">home</a></li>
-                    <li onclick="location.href='calendar.html'" onmouseover="style.cursor='pointer'"><a
-                            href="calendar.html">ressourcen</a></li>
-                    <li onclick="location.href='teams.html'" onmouseover="style.cursor='pointer'"><a
-                            href="teams.html">preise</a></li>
-                    <li onclick="location.href='download.html'" onmouseover="style.cursor='pointer'"><a
-                            href="download.html">installieren</a></li>
+                    <li onclick="location.href='resources.html'" onmouseover="style.cursor='pointer'"><a class="active"
+                            href="resources.html">ressourcen</a></li>
+                    <li onclick="location.href='pricing.html'" onmouseover="style.cursor='pointer'"><a
+                            href="pricing.html">preise</a></li>
+                    <li onclick="location.href='install.html'" onmouseover="style.cursor='pointer'"><a
+                            href="install.html">installieren</a></li>
                     <li onclick="location.href='about.html'" onmouseover="style.cursor='pointer'"><a
                             href="about.html">über uns</a></li>
                     <li onclick="location.href='login.html'" onmouseover="style.cursor='pointer'" class="float-right"><a
@@ -43,21 +38,106 @@
             </nav>
             <div class="banner">
                 <div class="banner-content">
-                    <h1>Für Menschen gemacht. <span id="fürProduktivitätEntwickelt">Für Produktivität entwickelt.</span>
+                    <h1>Fragments <br><span id="farbigerh1">Tools<br> und Informationen.</span>
                     </h1>
-                    <p>
-                        <strong>Fragments ist eine großartige Alternative zu Microsoft Teams</strong>, die speziell für
-                        Teams entwickelt wurde, die eine intuitive und effektive Art der Zusammenarbeit benötigen.
+                    <p> <strong>Entdecken Sie alle Tools und Informationen</strong>, die Sie für eine nahtlose
+                        Zusammenarbeit
+
+                        benötigen. Von Anleitungen und Tutorials bis hin zu Best Practices und nützlichen Tipps
                     </p>
                 </div>
             </div>
         </header>
         <main>
-            <div class="row firstRow">
+            <div class="firstRow list">
                 <ul>
-                    <li class="knopf">Patch notes</li>
-                    <li class="knopf">Begriffserklärungen</li>
-                    <li class="knopf">Wiki & Guides</li>
+                    <li class="knopf wiki" onclick="alert('Das Wiki existiert noch nicht')"
+                        onmouseover="style.cursor='pointer'">
+                        <h2>Fragments Wiki</h2>
+                    </li>
+                    <li class="knopf">
+                        <article>
+                            <h2>Vorschau auf das kommende Update von Fragments!</h2>
+                            <p>Wir freuen uns, Ihnen einen exklusiven Einblick in das bevorstehende große Update von
+                                Fragments zu geben. Mit dieser Version werden aufregende neue Funktionen und
+                                Verbesserungen eingeführt, um Ihre Teamarbeit auf ein neues Level zu heben.</p>
+                            <ol id="update">
+                                <li>
+                                    <p>Erweiterte Projektmanagement-Tools: Verwalten Sie Ihre Projekte noch effektiver
+                                        mit neuen Funktionen für Aufgabenverfolgung, Meilensteinplanung und
+                                        Teamkalenderintegration. Behalten Sie den Überblick über den Fortschritt,
+                                        delegieren Sie Aufgaben und optimieren Sie Ihren Workflow.</p>
+                                </li>
+                                <li>
+                                    <p>Verbesserte Integrationen: Wir haben unsere Integrationen mit beliebten Tools wie
+                                        Trello, Jira und Asana weiter optimiert. Verbinden Sie Fragments nahtlos mit
+                                        Ihren bevorzugten Anwendungen und synchronisieren Sie Daten jetzt
+                                        in Echtzeit.</p>
+                                </li>
+                                <li>
+                                    <p>Erweiterter Dateiaustausch: Mit dem neuen Update wird der Dateiaustausch in
+                                        Fragments noch einfacher und leistungsfähiger. Teilen Sie Dateien die größer als
+                                        500MB sind und profitieren Sie von verbesserten
+                                        Kollaborationsmöglichkeiten wie Reaktionen und Versionierung.</p>
+                                </li>
+                                <li>
+                                    <p>Verbesserte Sicherheit und Datenschutz: Wir haben uns intensiv mit der Sicherheit
+                                        von Fragments befasst und bieten mit dem Update 2-Faktor-Authenfizierung für
+                                        ihre Konten.</p>
+                                </li>
+                            </ol>
+                            <p>Das kommende Update von Fragments verspricht, Ihre Teamarbeit auf ein neues Niveau zu
+                                heben. Seien Sie gespannt auf diese aufregenden Neuerungen und nutzen Sie die neuen
+                                Funktionen, um Ihre Produktivität und Effizienz zu steigern. Bleiben Sie dran, weitere
+                                Details und das Veröffentlichungsdatum folgen in Kürze!</p>
+
+                            <details>
+                                <summary>
+                                    <h2>Changelog</h2>
+                                </summary>
+                                <p>
+                                    Patchnotes für Fragments (Version 1.1)<br><br>
+
+                                    Wir danken allen Benutzern, die diese Fehler gemeldet haben, und setzen
+                                    unsere Anstrengungen fort, Fragments weiterhin zu verbessern und ein reibungsloses
+                                    Benutzererlebnis zu gewährleisten. Wenn Sie weitere Probleme oder Vorschläge haben,
+                                    zögern
+                                    Sie nicht, uns zu kontaktieren.
+
+                                </p>
+                                <h3>Bug fixes</h3>
+                                <ol type="I">
+                                    <div class="patchnotes">
+                                        <li>Behobenes Problem: Ein Absturz beim Öffnen bestimmter Dateiformate wurde
+                                            behoben.</li>
+                                        <li>Behobenes Problem: Fehlerhafte Anzeige von Sonderzeichen in Chatnachrichten
+                                            wurde korrigiert.</li>
+                                        <li>Fehlerbehebung: Das Problem mit den nicht aktualisierten
+                                            Benutzerprofilbildern wurde behoben.</li>
+                                        <li>Behobenes Problem: Inkonsistente Darstellung von Benachrichtigungen wurde
+                                            behoben.</li>
+                                        <li>Fehlerbehebung: Die fehlerhafte Anzeige von Zeitzonen in der
+                                            Kalenderintegration wurde korrigiert.</li>
+                                    </div>
+                                </ol>
+                                <h3>Neue Funktionen</h3>
+                                <ol type="a">
+                                    <li>Hinzufügen von Aufgabenverfolgungsfunktionen zur besseren Verwaltung und
+                                        Nachverfolgung von Aufgaben innerhalb der Projekte.</li>
+                                    <li>Einführung von Meilensteinplanung, um wichtige Etappen und Ziele zu definieren
+                                        und den Projektfortschritt besser zu überwachen.</li>
+                                    <li>Integration eines Teamkalenders, um die Terminplanung und Koordination noch
+                                        effektiver zu gestalten.</li>
+                                </ol>
+
+                            </details>
+                        </article>
+                    </li>
+                    <li class="knopf">
+                        <article>
+
+                        </article>
+                    </li>
                 </ul>
             </div>
         </main>
@@ -65,8 +145,8 @@
     <div class="footer">
         <footer>
             <div class="footer-logo">
-                <img src="pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
-                    onclick="location.href='index.html'" onmouseover="style.cursor='pointer'" class="footer-logo">
+                <img src="../pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
+                    onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'" class="footer-logo">
             </div>
 
             <div class="bottom">

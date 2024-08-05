@@ -7,68 +7,25 @@
         content="Fragments ist ein moderner Programm zur Kommunikation mit deinem Team. Es ist schneller, besser organisiert und sicherer als E-Mail.">
     <title>Fragments - Home</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-
     <link rel="canonical" href="https://www.fragments.com/index.html">
+    <link rel="canonical" href="https://www.fragments.ch/index.html">
+    <link rel="canonical" href="https://www.fragments.de/index.html">
+    <link rel="canonical" href="https://www.fragments.at/index.html">
+    <link rel="canonical" href="https://www.fragments.nl/index.html">
+    <link rel="canonical" href="https://www.fragments.it/index.html">
+    <link rel="canonical" href="https://www.fragments.fr/index.html">
+    <link rel="canonical" href="https://www.fragments.ru/index.html">
+    <link rel="canonical" href="https://www.fragments.fi/index.html">
+
+
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="css/nav.css">
     <style>
-        footer{
-            top:2600px;
+        footer {
+            top: 2600px;
         }
 
-        #fürProduktivitätEntwickelt {
-            color: orange;
-        }
-
-        #kaufen {
-            background-color: #2a6bd2;
-            color: white;
-            width: 1000px;
-            height: 300px;
-            border-radius: 100px;
-            text-align: center;
-            padding-top: 50px;
-            margin-top: 60px;
-
-        }
-
-        #ueberschrift {
-            font-size: xx-large;
-        }
-
-        #knoepfe a {
-            padding: 30px;
-            margin-right: 50px;
-            text-decoration: none;
-            border-radius: 10px;
-            font-weight: 900;
-            font-size: large;
-            border: 2px white solid;
-        }
-
-        #knoepfe {
-            margin-top: 100px;
-        }
-
-        #testen-knopf {
-            background-color: white;
-            color: #2a6bd2;
-        }
-
-        #kaufen-knopf {
-            background-color: #2a6bd2;
-            color: white;
-        }
-
-        #kaufen-knopf:hover,
-        #testen-knopf:hover {
-            text-decoration: underline;
-            text-decoration-style: wavy;
-            text-decoration-thickness: 2px;
-            text-underline-offset: 8px;
-
-        }
+        
     </style>
 </head>
 
@@ -79,14 +36,14 @@
                 <ul>
                     <li><img src="pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
                             onclick="location.href='index.html'" onmouseover="style.cursor='pointer'" class="logo"></li>
-                    <li onclick="location.href='index.html'" onmouseover="style.cursor='pointer'"><a class="aktiv"
+                    <li onclick="location.href='index.html'" onmouseover="style.cursor='pointer'"><a class="active"
                             href="index.html">home</a></li>
-                    <li onclick="location.href='sites/calendar.html'" onmouseover="style.cursor='pointer'"><a
-                            href="sites/calendar.html">ressourcen</a></li>
-                    <li onclick="location.href='sites/teams.html'" onmouseover="style.cursor='pointer'"><a
-                            href="sites/teams.html">preise</a></li>
-                    <li onclick="location.href='sites/download.html'" onmouseover="style.cursor='pointer'"><a
-                            href="sites/download.html">installieren</a></li>
+                    <li onclick="location.href='sites/resources.html'" onmouseover="style.cursor='pointer'"><a
+                            href="sites/resources.html">ressourcen</a></li>
+                    <li onclick="location.href='sites/pricing.html'" onmouseover="style.cursor='pointer'"><a
+                            href="sites/pricing.html">preise</a></li>
+                    <li onclick="location.href='sites/install.html'" onmouseover="style.cursor='pointer'"><a
+                            href="sites/install.html">installieren</a></li>
                     <li onclick="location.href='sites/about.html'" onmouseover="style.cursor='pointer'"><a
                             href="sites/about.html">über uns</a></li>
                     <li onclick="location.href='sites/login.html'" onmouseover="style.cursor='pointer'"
@@ -95,7 +52,7 @@
             </nav>
             <div class="banner">
                 <div class="banner-content">
-                    <h1>Für Menschen gemacht. <span id="fürProduktivitätEntwickelt">Für Produktivität entwickelt.</span>
+                    <h1>Für Menschen gemacht. <span id="farbigerh1">Für Produktivität entwickelt.</span>
                     </h1>
                     <p>
                         <strong>Fragments ist eine großartige Alternative zu Microsoft Teams</strong>, die speziell für
@@ -151,8 +108,10 @@
                 <div class="column col-right col-text">
                     <h2>Intuitive Benutzeroberfläche </h2>
                     <p>Das intuitive Interface von Fragments ist benutzerfreundlich und macht die Zusammenarbeit noch
-                        einfacher. <strong>Das Interface ist einfach zu verstehen und zu bedienen, so dass Sie effektiver und
-                        produktiver arbeiten können.</strong> Probieren Sie es noch heute aus und erleben Sie, wie einfach es
+                        einfacher. <strong>Das Interface ist einfach zu verstehen und zu bedienen, so dass Sie
+                            effektiver und
+                            produktiver arbeiten können.</strong> Probieren Sie es noch heute aus und erleben Sie, wie
+                        einfach es
                         sein kann, effektiv im Team zusammenzuarbeiten!
                 </div>
             </div>
@@ -160,7 +119,7 @@
                 <h3 id="ueberschrift">Entdecke die möglichkeiten von Fragments</h3>
                 <div id="knoepfe">
                     <a href="sites/login.html" id="testen-knopf">KOSTENLOS TESTEN</a><a id="kaufen-knopf"
-                        href="sites/pricing.html">SERVICE KAUFEN</a>
+                        href="sites/pricing.html#pricing">SERVICE KAUFEN</a>
                 </div>
             </div>
         </main>
@@ -169,11 +128,12 @@
         <footer>
             <div class="footer-logo">
                 <img src="pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
-                            onclick="location.href='index.html'" onmouseover="style.cursor='pointer'" class="footer-logo">
+                    onclick="location.href='index.html'" onmouseover="style.cursor='pointer'" class="footer-logo">
             </div>
 
             <div class="bottom">
-            &copy; 2023 Fragments Technologies GmbH. Alle Rechte vorbehalten. Diverse Marken sind im Besitz der jeweiligen Eigentümer. <br><a href="sites/contact.html">Kontaktiere uns</a>
+                &copy; 2023 Fragments Technologies GmbH. Alle Rechte vorbehalten. Diverse Marken sind im Besitz der
+                jeweiligen Eigentümer. <br><a href="sites/contact.html">Kontaktiere uns</a>
             </div>
         </footer>
     </div>
