@@ -1,0 +1,29 @@
+.row{
+    width: 600px;
+    margin: auto;
+}
+.row p{
+    margin: 10px;
+    text-align: justify;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+textarea{
+    width: 480px;
+    resize: vertical;
+    margin: 10px;
+}
+input,label{
+    width: 220px;
+    margin: 12px;
+}
+form{
+    margin-left: 50px;
+}
+textarea{
+    transition: 0ms;
+}
