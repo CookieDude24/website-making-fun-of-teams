@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description"
+        content="Fragments ist ein moderner Programm zur Kommunikation mit deinem Team. Es ist schneller, besser organisiert und sicherer als E-Mail.">
+    <title>Fragments - Preise</title>
+
+    <link rel="canonical" href="https://www.fragments.com/index.html">
+
+    <link rel="stylesheet" href="../css/css.css">
+    <link rel="stylesheet" href="../css/about.css">
+    <link rel="stylesheet" href="../css/nav.css">
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <nav>
+                <ul>
+                    <li><img src="../pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
+                            onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'" class="logo">
+                    </li>
+                    <li onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'"><a
+                            href="../index.html">home</a></li>
+                    <li onclick="location.href='resources.html'" onmouseover="style.cursor='pointer'"><a
+                            href="resources.html">ressourcen</a></li>
+                    <li onclick="location.href='pricing.html'" onmouseover="style.cursor='pointer'"><a
+                            href="pricing.html">preise</a></li>
+                    <li onclick="location.href='install.html'" onmouseover="style.cursor='pointer'"><a
+                            href="install.html">installieren</a></li>
+                    <li onclick="location.href='about.html'" onmouseover="style.cursor='pointer'"><a class="active"
+                            href="about.html">über uns</a></li>
+                    <li onclick="location.href='login.html'" onmouseover="style.cursor='pointer'" class="float-right"><a
+                            href="login.html">login</a></li>
+                </ul>
+            </nav>
+            <div class="banner">
+                <div class="banner-content">
+                    <h1>Fragments <br><span id="farbigerh1">Über<br>uns.</span>
+                    </h1>
+                    <p><strong>Revolutionäre Lösungen für effektive Teamarbeit und nahtlose Kommunikation</strong>.
+                        Fragments – die
+                        Plattform, die dein Team zum Erfolg führt. Entdecke die Zukunft der Zusammenarbeit.
+                    </p>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="firstRow row">
+                <div class="row">
+                    <h2>Über uns</h2>
+                    <p>
+                        Als führendes Unternehmen in der Entwicklung von innovativen Lösungen für Teamkommunikation und
+                        Zusammenarbeit sind wir bestrebt, die Art und Weise zu revolutionieren, wie Teams miteinander
+                        arbeiten und kommunizieren.
+                    </p>
+                    <p>
+                        Unser engagiertes Team von Fachleuten arbeitet leidenschaftlich daran, hochwertige Software zu
+                        entwickeln, die die Teamkommunikation nahtlos und effizient macht. Mit unserer Plattform
+                        Fragments
+                        bieten wir eine Vielzahl von Funktionen und Tools, die es Teams ermöglichen, über verschiedene
+                        Kanäle hinweg zu kommunizieren, Dateien auszutauschen, Aufgaben zu verwalten und vieles mehr.
+                    </p>
+                    <p>
+                        Unsere Vision ist es, Teamarbeit zu vereinfachen und Teams dabei zu unterstützen, ihre
+                        Produktivität
+                        und Effizienz zu steigern. Wir verstehen die Herausforderungen, vor denen Teams in der heutigen
+                        schnelllebigen Geschäftswelt stehen, und wir sind fest entschlossen, ihnen die Werkzeuge an die
+                        Hand
+                        zu geben, um erfolgreich zu sein.
+                    </p>
+                    <p>
+                        Bei Fragments legen wir großen Wert auf Benutzerfreundlichkeit, Sicherheit und Zuverlässigkeit.
+                        Wir
+                        streben danach, intuitive und benutzerorientierte Lösungen anzubieten, die für Teams jeder Größe
+                        und
+                        in verschiedenen Branchen geeignet sind.
+                    </p>
+                    <p>
+                        Unser Engagement geht jedoch über die Bereitstellung einer erstklassigen Software hinaus. Wir
+                        legen
+                        großen Wert auf den Aufbau langfristiger Partnerschaften mit unseren Kunden und stehen ihnen mit
+                        einem engagierten Kundensupport zur Seite. Wir hören unseren Kunden zu, berücksichtigen ihr
+                        Feedback
+                        und setzen kontinuierlich Verbesserungen und neue Funktionen um, um ihre Anforderungen zu
+                        erfüllen.
+                    </p>
+                    <p>
+                        Wir laden Sie ein, Teil der Fragments-Community zu werden und die Vorteile einer nahtlosen
+                        Teamkommunikation zu erleben. Kontaktieren Sie uns, um mehr über unsere Lösungen zu erfahren
+                        oder um
+                        Ihre Fragen zu beantworten.
+                    </p>
+                </div>
+                <div  id="contact" class="row" >
+                    <h2>Kontaktiere uns</h2>
+                    <form>  
+                            <input name="email" type="email" required placeholder="Email"><input name="name" type="text" placeholder="Name" required>
+                            <br>
+                            <br>
+                            <br>
+                            <textarea name="message" placeholder="Ihre Nachricht an uns (max. 1000 Zeichen)" maxlength="1000" required></textarea>
+                            <br>
+                            <br>
+                            <br>
+                            <label>Wann willst du die Antwort erhalten?</label>
+                            <input type="date" name="date" min="2023-08-06" max="2025-01-01">
+                            <br>
+                            <br>
+                            <br>
+                            <label>Wieso willst du uns kontaktieren?</label>
+                            <select name="reason" size="1">
+                                <option>Ich habe eine Frage</option>
+                                <option>Ich will Fragments in meiner Organisation benutzen</option>
+                                <option>anderer Grund</option>
+                            </select>
+                            <br>
+                            <br>
+                            <br>
+                            <label>Wie gut gefällt dir diese Website?</label>
+                            <input type="range" min="0" max="10" name="likeness" oninput="like.value=value">
+                            <output id="like" ></output>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <div class="footer">
+        <footer>
+            <div class="footer-logo">
+                <img src="../pics/fragments/fragments-logo-with-text.png" alt="Logo der Fragments GmbH"
+                    onclick="location.href='../index.html'" onmouseover="style.cursor='pointer'" class="footer-logo">
+            </div>
+
+            <div class="bottom">
+                &copy; 2023 Fragments Technologies GmbH. Alle Rechte vorbehalten. Diverse Marken sind im Besitz der
+                jeweiligen Eigentümer. <br><a href="about.html#contact">Kontaktiere uns</a>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
