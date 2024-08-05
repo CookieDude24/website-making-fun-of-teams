@@ -1,0 +1,70 @@
+*{
+    font-family: Cantarell;
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 1000px;
+    margin: auto;
+    height: 5000px;
+}
+
+main{
+    position:absolute;
+    top: 50px;
+    z-index: 50;
+}
+
+.column{
+    width: 480px;
+    display: inline-block;
+}
+
+.col-right, .col-left{
+    display: inline-block;
+    width: 480px;
+}
+
+.col-left{
+    position: relative;
+    top: -100px;
+}
+
+
+.col-right img{
+    width: 480px;
+}
+
+.content{
+    padding: 10px;
+    margin-top: 400px;
+}
+
+.banner{
+    width: 100vw;
+    height: 300px;
+    background-color:#333;
+    position: absolute;
+    left: 0;
+}
+
+.banner-content{
+    width: 1000px;
+    margin: auto;
+    height: 200px;
+    margin-top: 100px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: white;
+}
+.banner-content p,.banner-content h1{
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+}
+.banner-content p{
+    font-size:larger
+}
+
+
+
