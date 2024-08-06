@@ -32,6 +32,7 @@ h1 {
     text-decoration-style: wavy;
     text-decoration-thickness: 2px;
     text-underline-offset: 8px;
+    box-shadow: #555 5px 5px 5px;
 }
 
 summary {
@@ -40,6 +41,7 @@ summary {
     height: fit-content;
     width: 560px;
     text-align: center;
+    padding: 20px;
 }
 
 summary h2 {
@@ -51,7 +53,6 @@ details {
     border-radius: 25px;
     height: fit-content;
     margin-top: 30px;
-    padding: 20px;
 }
 
 details p {
@@ -74,6 +75,9 @@ details li {
 .patchnotes {
     background-color: inherit;
     padding: 10px;
+}
+ol{
+    padding-bottom: 20px;
 }
 
 
