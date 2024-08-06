@@ -13,6 +13,21 @@
     <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/nav.css">
 </head>
+<style>
+    #contact{
+        margin-top: 50px;
+    }
+    article h2{
+        margin: 20px;
+    }
+    #submit{
+        width: 300px;
+        height: 30px;
+        margin: 30px;
+        margin-left: 150px;
+
+    }
+</style>
 
 <body>
     <div class="main">
@@ -105,7 +120,7 @@
                             oder um
                             Ihre Fragen zu beantworten.
                         </p>
-                        <h3>Besuchen sie uns!</h3>
+                        <h2>Besuchen sie uns!</h2>
                         <iframe
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8970.249022795211!2d15.126406733515612!3d48.05482650200152!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47726ac5ff85bfa5%3A0x4d4833976c78279a!2sIm%20Rosenbichl%2018a%2C%203251%20Gaisberg!5e0!3m2!1sde!2sat!4v1684948890534!5m2!1sde!2sat"
                             style="border:0; width: 600px; height: 450px;" allowfullscreen="" loading="lazy"
@@ -126,7 +141,7 @@
                         <br>
                         <br>
                         <label>Wann willst du die Antwort erhalten?</label>
-                        <input type="date" name="date" min="2023-08-06" max="2025-01-01">
+                        <input type="date" name="date" min="2023-08-06" max="2024-01-01">
                         <br>
                         <br>
                         <br>
@@ -139,9 +154,11 @@
                         <br>
                         <br>
                         <br>
-                        <label>Wie gut gefällt dir diese Website?</label>
+                        <label>Wie gut gefällt dir diese Website?</label><br>
                         <input type="range" min="0" max="10" name="likeness" oninput="like.value=value">
                         <output id="like"></output>
+
+                        <input type="submit" value="Senden" id="submit">
                     </form>
                 </div>
             </div>
