@@ -1,5 +1,5 @@
 .row{
-    width: 500px;
+    width: 600px;
     margin: auto;
 }
 .row p{
@@ -20,4 +20,10 @@ textarea{
 input,label{
     width: 220px;
     margin: 12px;
+}
+form{
+    margin-left: 50px;
+}
+textarea{
+    transition: 0ms;
 }
