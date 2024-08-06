@@ -14,12 +14,12 @@
     margin: 15px;
     padding: 50px;
     box-sizing: border-box;
-    box-shadow: gainsboro 2px 2px 2px 2px;
+    box-shadow: gainsboro 1px 1px 10px 5px;
     border-radius: 60px;
 }
 .content-install div:hover{
-    transform: scale(105%);
-    box-shadow: darkgray 5px 5px 5px 5px;
+    transform: scale(103%);
+    box-shadow: darkgray 5px 5px 15px 10px;
 
 }
 
@@ -27,6 +27,11 @@
     width: fit-content;
     height: fit-content;
     margin: auto;
+    margin-top: 10px;
+}
+
+h2{
+    margin-top: 30px;
 }
 
 .content-install div p{
