@@ -4,11 +4,11 @@
 
 .content-install{
     position: relative;
-    top: -45px;
+    top: -15px;
 }
 
 .content-install div{
-    height:600px;
+    height:620px;
     width: 400px;
     display: inline-block;
     margin: 15px;
@@ -55,3 +55,11 @@ figure{
     text-align: center;
 }
 
+.content-install a{
+    text-align: center;
+    display: inline-block;
+    
+    
+    padding: 20px;
+    width: 269px;
+}
